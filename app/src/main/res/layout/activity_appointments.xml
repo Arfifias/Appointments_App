@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/design_default_color_secondary"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:hint="@string/appointment_title"
+        android:autofillHints="no"
+        android:layout_marginTop="150dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:hint="@string/date_yyyy_mm_dd"
+        android:autofillHints="no"
+        android:inputType="number"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:hint="@string/time_hh_mm"
+        android:autofillHints="no"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:hint="@string/description"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="5"
+        android:autofillHints="no" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_appointment" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back" />
+
+
+</LinearLayout>

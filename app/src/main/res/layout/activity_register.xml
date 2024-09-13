@@ -1,0 +1,55 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_secondary"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:hint="@string/User"
+        android:padding="10dp"
+        android:autofillHints="no"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginTop="20dp"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:autofillHints="no" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password2"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:autofillHints="no" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:text="@string/Register2" />
+
+    <Button
+        android:id="@+id/myBackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerButton"
+        android:text="@string/back" />
+
+</RelativeLayout>

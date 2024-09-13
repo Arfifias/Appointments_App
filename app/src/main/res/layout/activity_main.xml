@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/design_default_color_secondary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="225dp"
+        android:autofillHints="username"
+        android:hint="@string/username"
+        android:importantForAutofill="auto"
+        android:inputType="text"
+        android:text="@string/Username"/>
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:importantForAutofill="auto"
+        android:autofillHints="password"
+        android:text="@string/Password"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login" />
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Register" />
+
+</LinearLayout>

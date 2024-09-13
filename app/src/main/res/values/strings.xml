@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="username" />
+    <string name="password" />
+    <string name="login" />
+    <string name="register" />
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="User">Username</string>
+    <string name="Email">Email</string>
+    <string name="password2">Password</string>
+    <string name="Register2">Register</string>
+    <string name="Back" />
+    <string name="back">Back</string>
+    <string name="appointment_title">Appointment Title</string>
+    <string name="date_yyyy_mm_dd">Date (YYYY-MM-DD)</string>
+    <string name="time_hh_mm">Time (HH:MM)</string>
+    <string name="description">Description</string>
+    <string name="save_appointment">Save Appointment</string>
+</resources>
